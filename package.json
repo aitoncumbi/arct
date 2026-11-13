@@ -1,0 +1,19 @@
+{
+  "name": "arct",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Browser-based 3D architecture planner: pick a plot, draw walls, add doors, windows and furniture.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:single": "vite build && node scripts/inline.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "vite": "^8.3.8"
+  }
+}
